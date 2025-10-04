@@ -39,4 +39,9 @@ public class Person {
 		this.personAge = personAge;
 		this.personCity = personCity;
 	}
+
+	public void displayInfo() {
+		// TODO Auto-generated method stub
+		
+	}
 }
