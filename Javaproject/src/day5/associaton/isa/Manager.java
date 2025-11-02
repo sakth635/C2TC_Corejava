@@ -10,7 +10,6 @@ public class Manager extends Employee {
 	}
 
 	public Manager(String name, int employeeId, String department, int teamSize) {
-		super(name, employeeId, department);
 		this.teamSize = teamSize;
 	}
 
