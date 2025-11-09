@@ -27,4 +27,14 @@ public class Manager extends Employee {
 		return "Manager [TeamSize=" + teamSize + ", Name=" + getName() + ", EmployeeId=" + getEmployeeId()
 				+ ", Department=" + getDepartment() + "]";
 	}
+
+	private String getDepartment() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private String getEmployeeId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

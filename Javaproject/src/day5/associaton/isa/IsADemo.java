@@ -4,12 +4,12 @@ import day5.associaton.hasa.Address;
 
 public class IsADemo {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		// TODO Auto-generated method stub
 		String name;
 		Address address;
 
-		public Person(String name, Address address) {
+		public Person(String name, Address address){
 			this.name = name;
 			this.address = address;
 		}
@@ -37,7 +37,6 @@ public class IsADemo {
 			System.out.println("Address: " + address.getStreet() + ", " + address.getCity() + ", " + address.getState()
 					+ " " + address.getPostalCode());
 		}
-	
 	}
 
 }
